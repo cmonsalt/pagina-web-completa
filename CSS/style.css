@@ -10,7 +10,6 @@ header{
 }
 
 .container{
-    background-color: blue;
     width: 100%;
     height: 30vh;
     display: flex;
@@ -87,3 +86,568 @@ header{
 
 /* Fin header  */
 
+/* Inicio main  sección1*/
+
+main{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+main .container-sect1{
+    width: 100%;
+    height: 60vh;
+    background-image: url("https://www.ikea.com/images/comedor-con-una-mesa-y-sillas-en-abedul-una-alfombra-amarill-9ae9000b897bfb55cfba2c5163a9be15.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container-sect1 .row{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.3); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+main .container-sect1 .row h5{
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+
+main .container-sect1 .row h2{
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+    margin-top: -25px;
+}
+
+main .container-sect1 .row button{
+    border: none;
+     border-radius: 5px;
+     width: 10%;
+     padding: 10px;
+     font-family: "Times New Roman", Times, serif;
+     font-size: 1.1rem;
+     font-weight: 300;
+     background-color: rgb(0,107,97);
+     color: rgb(255, 255, 255);
+     outline: none;
+     margin-top: -20px;
+     letter-spacing: 1px;
+     
+}
+
+main .container-sect1 .row button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0,107,97);
+}
+
+/* Fin sección1  */
+
+/* Inicio main  sección2*/
+
+main .container-sect2 {
+    width: 100%;
+    height: 60vh;
+    border-top: 60px solid rgb(144,118,99);
+}
+
+main .container-sect2 .row{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+main .container-sect2 .row .col:nth-child(1){
+    width: 25%;
+    height: 40vh;
+    background-image: url("https://d3lome5o0h180x.cloudfront.net/eyJidWNrZXQiOiJiYWNrYm9uZS1hc3NldHMtcHJkIiwia2V5IjoiNTkzNjQzLzU5MzY0My5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE1MDAsImhlaWdodCI6MTUwMCwiZml0IjoiY29udGFpbiJ9fX0=");
+    background-size: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px;
+    border-radius: 15px 15px 0px 0px;
+    margin-right: 0px;
+  
+}
+
+main .container-sect2 .row .col:nth-child(2){
+    width: 25%;
+    height: 40vh;
+    background-image: url("https://d3lome5o0h180x.cloudfront.net/eyJidWNrZXQiOiJiYWNrYm9uZS1hc3NldHMtcHJkIiwia2V5IjoiNzExOTUxLzcxMTk1MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE1MDAsImhlaWdodCI6MTUwMCwiZml0IjoiY29udGFpbiJ9fX0=");
+    background-size: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px;
+    border-radius: 15px 15px 0px 0px;
+    margin-right: 0px;
+
+}
+
+main .container-sect2 .row .col:nth-child(3){
+    width: 25%;
+    height: 40vh;
+    background-image: url("https://d3lome5o0h180x.cloudfront.net/eyJidWNrZXQiOiJiYWNrYm9uZS1hc3NldHMtcHJkIiwia2V5IjoiNTM0NTQwLzUzNDU0MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE1MDAsImhlaWdodCI6MTUwMCwiZml0IjoiY29udGFpbiJ9fX0=");
+    background-size: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px;
+    border-radius: 15px 15px 0px 0px;
+  
+}
+
+main .container-sect2 .row .col h2{
+    color: rgb(0,107,97); 
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+main .container-sect2 .row .col button{
+    width: 100%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    background-color: rgb(0,107,97);
+    color: rgb(255, 255, 255);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 165px;
+    letter-spacing: 1px;
+
+}
+
+main .container-sect2 .row .col button:hover{
+    color: rgb(0,107,97);
+    background-color: rgb(255, 255, 255);
+}
+
+/* Fin sección2  */
+
+/* Inicio main  sección3*/
+main .container-sect3{
+    width: 100%;
+    right: 100vh;
+}
+
+main .container-sect3 .row-1{
+    width: 100%;
+    height: 15vh;
+    margin-top: -70px;
+
+}
+
+main .container-sect3 .row-1 h3{
+   font-family: "Times New Roman", Times, serif;
+    color: rgb(0,107,97);
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+main .container-sect3 .row-1 h1{
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(0,107,97);
+    font-weight: 500;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+main .container-sect3 .row-2{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+main .container-sect3 .row-2 .col {
+    width: 25%;
+    height: 60vh;
+    margin: 10px;
+}
+
+main .container-sect3 .row-2 figure {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+main .container-sect3 .row-2 figure img {
+    width: 80%;
+}
+
+
+main .container-sect3 .row-2 .col a{
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main .container-sect3 .row-2 .col a h2{
+    color: rgb(0,107,97);
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0px;
+
+}
+
+main .container-sect3 .row-2 .col a h2:hover{
+    color: rgb(7, 31, 35);
+}
+
+main .container-sect3 .row-2 .col a span{
+    color: rgb(0,107,97);
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -20px;
+    font-weight: 500;
+}
+
+main .container-sect3 .row-2 .col a span:hover{
+    color: rgb(7, 31, 35);
+}
+
+
+main .container-sect3 .row-2 .col p{
+    color: rgb(7, 31, 35);
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Fin sección3  */
+
+/* Inicio main  sección4*/
+
+main .container-sect4{
+    background-image: url("http://deplanosycasas.com/wp-content/uploads/2017/09/concepto-abierto-cocina-comedor-sala.jpg");
+    width: 100%;
+    height: 70vh;
+    margin-top: -70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+main .container-sect4 .row {
+    background-color: rgba(0,0,0, 0.3);
+    width: 100%;
+    height: 100%;
+
+}
+
+main .container-sect4 .row h3{
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    
+}
+
+main .container-sect4 .row h1{
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+main .container-sect4 .row p{
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 60px;
+    letter-spacing: 1px;;
+}
+
+
+main .container-sect4 .row div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main .container-sect4 .row div:nth-child(2) input{
+    width: 20%;
+    padding: 10px 30px;
+    margin-top: -10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: rgb(70, 65, 65);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+main .container-sect4 .row div:nth-child(2) button{
+    width: 30% ;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0,107,97);
+    cursor: pointer;
+    letter-spacing: 1px;
+   
+}
+
+
+main .container-sect4 .row div:nth-child(2) button:hover{
+    color: rgb(0,107,97);
+    background-color: rgb(255, 255, 255); ;
+}
+
+
+/* Fin sección4  */
+
+/* Inicio main  sección5*/
+
+main .container-sect5{
+    background-image: url("https://d3lome5o0h180x.cloudfront.net/eyJidWNrZXQiOiJiYWNrYm9uZS1hc3NldHMtcHJkIiwia2V5IjoiNzI5NDIyLzcyOTQyMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE1MDAsImhlaWdodCI6MTUwMCwiZml0IjoiY29udGFpbiJ9fX0=");
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+ }
+
+ main .container-sect5 .row{
+    background-color: rgba(0,0,0, 0.5);
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+ }
+
+ main .container-sect5 .row .col{
+    width: 30%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+ }
+
+ main .container-sect5 .row .col h3{
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 1.2rem;
+    transition: ease-in-out 0.3s;
+ }
+
+ main .container-sect5 .row .col h3:hover{
+     transform: skewX(30deg);
+ }
+
+ main .container-sect5 .row .col h1{
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin-top: -15px;
+    margin-bottom: 0px;
+ }
+
+
+ main .container-sect5 .row .col p{
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 1.1rem;
+    margin-bottom: 60px;
+    letter-spacing: 1px;
+  
+ }
+
+
+ main .container-sect5 .row .col button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0,107,97);
+    letter-spacing: 1px;
+    margin-top: -30px;
+    width: 70%;
+    transition: all 0.5s;
+ }
+
+ main .container-sect5 .row .col button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0,107,97);
+    transform:translate(12px, 50%);
+    cursor: pointer;
+ }
+
+ /* Fin sección5  */
+
+/* Inicio main  sección6*/
+
+main .container-sect6{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+main .container-sect6 .row1{
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    
+}
+
+
+main .container-sect6 .row1 h3{
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(0,107,97);
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.2rem;
+   
+}
+
+
+main .container-sect6 .row1 h1{
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(0,107,97);
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin-top: 0px;
+
+}
+
+main .container-sect6 .row2{
+  width: 100%;
+  height: 55vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+
+
+}
+
+main .container-sect6 .row2 .col{
+    width: 25%;
+    height: 100%;
+    margin-right: 20px;
+   
+}
+
+main .container-sect6 .row2 .col figure{
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+}
+
+main .container-sect6 .row2 .col figure img{
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+main .container-sect6 .row2 .col div a{
+    color: rgb(0,107,97);
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+main .container-sect6 .row-2 .col div a:hover{
+    color: rgb(7, 31, 35);
+
+
+}
+
+main .container-sect6 .row2 .col div p{
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(0,107,97);
+    font-weight: 300;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    margin-top: 0px;
+  
+}
+
+main .container-sect6 .row3{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+main .container-sect6 .row3 button{
+    width: 20% ;
+    padding: 10px;
+    margin-top: 0px;
+    border-radius: 20px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0,107,97);
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+
+main .container-sect6 .row3 button:hover{
+    color: rgb(0,107,97);
+    background-color: rgb(255, 255, 255);
+}
